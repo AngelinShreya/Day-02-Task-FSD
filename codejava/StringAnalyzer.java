@@ -41,6 +41,15 @@ public class StringAnalyzer {
 		}
 		System.out.println();
 
+		//Longestword
+				String Longestword=" ";
+				for(int i=0;i<words.length;i++) {
+				if(words[i].length()>Longestword.length()) {
+					Longestword=words[i];
+				}
+				}
+				System.out.println(Longestword);
+
 	}
 
 }
